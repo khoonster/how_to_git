@@ -24,8 +24,8 @@ Log in to c9 with github
     git commit -m "Initial commit (this is the name of the commit)"
     git push
 
-Change the remote URL based on what it says in your githup repository
 
+Change the remote URL based on what it says in your githup repository
 
 git push -u origin master
 
@@ -36,8 +36,19 @@ git push -u origin master
     Connect your local repository to a remote repository called 'origin'.
     This can be copied from github.
 
-`git status`: See what the changed files are.
+`git status`: 
+    See what the changed files are.
     
-`git add -A`: Add all changed files to this commit.
+`git add -A`: 
+    Add all changed files to this commit.
+
+`git commit -m "Commit message here"`:
+    commit the changed files to the repository.
+    
+`git push`:
+    push commits from your local repository, to the remote repository (github)
+
+Repeat the status--add -A--commit -m--push commands whenever you add a feature or fix a bug.
+The commit message describes the feature or bug fix.
 
 
